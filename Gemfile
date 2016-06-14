@@ -51,5 +51,6 @@ end
 #custom gems
 
 gem 'devise'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 

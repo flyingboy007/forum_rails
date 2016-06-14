@@ -15,6 +15,8 @@
 #  last_sign_in_ip        :string
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
+#  first_name             :string
+#  last_name              :string
 #
 # Indexes
 #
@@ -30,4 +32,6 @@ class User < ActiveRecord::Base
 
   has_many :forum_threads
   has_many :forum_posts
+
+  def name; "#{first_name} #{last_name}"; end
 end
