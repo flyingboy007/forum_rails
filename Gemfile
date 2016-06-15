@@ -55,5 +55,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sucker_punch'
 gem 'ransack'
 gem 'local_time'
+gem 'html-pipeline'
+gem 'github-markdown'
+gem 'gemoji'
+gem 'sanitize'
+
 
 
